@@ -32,7 +32,7 @@ end
 
 ## For VS Code
 1. With VS Code open, type Ctrl+Shift+P to open the command palette, then type '> Preferences: Open User Settings (JSON)'
-2. Create or edit the entry "Lua.workspace.library" like below:
+2. Create or edit the entry `"Lua.workspace.library"` like below:
 
 ```json
 "Lua.workspace.library": [
