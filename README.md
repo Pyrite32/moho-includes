@@ -3,18 +3,21 @@
 
 # moho-includes
 Improve your Moho script development experience with type annotations for Moho's scripting API.
-> Note: You must be using either `VS Code` or `neovim` to make use of `moho-includes`. 
+> Note: Notepad and Notepad++ are not supported. Install a supported code editor to make use of `moho-includes`. 
 
 
 ## Features
-While there exists [documentation](https://mohoscripting.com/), as well as Notepad++ support for the Moho API, `moho-includes` will introduce:
+![Demo GIF](/docs/documentation-example.png)
+Script development with `moho-includes` will introduce:
 1. Auto-complete for all classes provided by Moho, LM, and LM.GUI functions, scoped to relevant types.
 2. Errors and warnings produced by invalid syntax, invalid argument types, and missing null checks.
-3. Documentation for most of Moho's functions, with links to documentation pages and examples in other scripts.
+3. Documentation for most of Moho's functions, pulled directly from MOHO's [unofficial documentation](https://mohoscripting.com/).
 4. Less uncertainty about variable types and the need to [include types in variable names](https://www.codeconquest.com/blog/hungarian-notation-in-programming/).
 
 ## Installation
-1. Download and install a text editor / IDE that supports [LuaLS](https://luals.github.io/), such as [VS Code](https://code.visualstudio.com/download)
+`moho-includes` does not come with autocomplete on its own. To get autocomplete to work in real time, you will need to install [LuaLS](https://luals.github.io/). LuaLS is a language server that tracks and resolves the types for variables and function results, and provides hints for invalid syntax and erroneous function calls (like `moho.UserContentDir()` instead of `moho:UserContentDir()`). 
+
+1. Download and install a text editor / IDE that supports LuaLS, such as [VS Code](https://code.visualstudio.com/download)
 2. [Install LuaLS for your IDE](https://luals.github.io/#vscode-install)
 3. Clone the `moho-includes` repository, or navigate to Code > Download ZIP and unzip.
 4. Point LuaLS to `moho-includes` by specifying the name of the download folder. This varies across text editors. For VS Code, read the below instructions.
