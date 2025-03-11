@@ -10,7 +10,7 @@ Improve your Moho script development experience with type annotations for Moho's
 While there exists [documentation](https://mohoscripting.com/), as well as Notepad++ support for the Moho API, `moho-includes` will introduce:
 1. Auto-complete for all classes provided by Moho, LM, and LM.GUI functions, scoped to relevant types.
 2. Errors and warnings produced by invalid syntax, invalid argument types, and missing null checks.
-3. Documentation and descriptions for most of Moho's functions, and a link to the documentation's page.
+3. Documentation for most of Moho's functions, with links to documentation pages and examples in other scripts.
 4. Less uncertainty about variable types and the need to [include types in variable names](https://www.codeconquest.com/blog/hungarian-notation-in-programming/).
 
 ## Installation
