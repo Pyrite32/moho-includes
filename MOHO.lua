@@ -7018,7 +7018,7 @@ function MOHO.ScriptInterface:BindingKeyName() end
 ---[MR Transform Rig Tool](http://mohoscripts.com/script/mr_transform_rig_tool)
 ---[FO_Utilities](http://mohoscripts.com/script/FO_Utilities)
 ---@param anim_channel MOHO.AnimChannel 
----@return MOHO.AnimBool channel_as_anim_bool
+---@return MOHO.AnimBool? channel_as_anim_bool
 function MOHO.ScriptInterface:ChannelAsAnimBool(anim_channel) end
 
 ---Added in version 12
@@ -7029,7 +7029,7 @@ function MOHO.ScriptInterface:ChannelAsAnimBool(anim_channel) end
 ---[DV Tween Machine ](http://mohoscripts.com/script/DV_TweenMachine)
 ---[Recolor](http://mohoscripts.com/script/ae_recolor)
 ---@param anim_channel MOHO.AnimChannel 
----@return MOHO.AnimColor channel_as_anim_color
+---@return MOHO.AnimColor? channel_as_anim_color
 function MOHO.ScriptInterface:ChannelAsAnimColor(anim_channel) end
 
 ---Added in version 12
@@ -7041,7 +7041,7 @@ function MOHO.ScriptInterface:ChannelAsAnimColor(anim_channel) end
 ---[DV Tween Machine ](http://mohoscripts.com/script/DV_TweenMachine)
 ---[MR Overlay](http://mohoscripts.com/script/mr_overlay)
 ---@param anim_channel MOHO.AnimChannel 
----@return MOHO.AnimString channel_as_anim_string
+---@return MOHO.AnimString? channel_as_anim_string
 function MOHO.ScriptInterface:ChannelAsAnimString(anim_channel) end
 
 ---Added in version 12
@@ -7053,7 +7053,7 @@ function MOHO.ScriptInterface:ChannelAsAnimString(anim_channel) end
 ---[Seamless rotation maker](http://mohoscripts.com/script/ae_seamless_rotation_smart_maker)
 ---[Selected Keys to Zero](http://mohoscripts.com/script/LK_SelectedKeysToZero)
 ---@param anim_channel MOHO.AnimChannel 
----@return MOHO.AnimVal channel_as_anim_val
+---@return MOHO.AnimVal? channel_as_anim_val
 function MOHO.ScriptInterface:ChannelAsAnimVal(anim_channel) end
 
 ---Added in version 12
@@ -7065,7 +7065,7 @@ function MOHO.ScriptInterface:ChannelAsAnimVal(anim_channel) end
 ---[DV Tween Machine ](http://mohoscripts.com/script/DV_TweenMachine)
 ---[Merge skeletons](http://mohoscripts.com/script/ae_merge_skeletons)
 ---@param anim_channel MOHO.AnimChannel 
----@return MOHO.AnimVec2 channel_as_anim_vec2
+---@return MOHO.AnimVec2? channel_as_anim_vec2
 function MOHO.ScriptInterface:ChannelAsAnimVec2(anim_channel) end
 
 ---Added in version 12
@@ -7077,7 +7077,7 @@ function MOHO.ScriptInterface:ChannelAsAnimVec2(anim_channel) end
 ---[MR Transform Rig Tool](http://mohoscripts.com/script/mr_transform_rig_tool)
 ---[DV Tween Machine ](http://mohoscripts.com/script/DV_TweenMachine)
 ---@param anim_channel MOHO.AnimChannel 
----@return MOHO.AnimVec3 channel_as_anim_vec3
+---@return MOHO.AnimVec3? channel_as_anim_vec3
 function MOHO.ScriptInterface:ChannelAsAnimVec3(anim_channel) end
 
 ---[Docs](https://mohoscripting.com/methods/56)
@@ -7086,7 +7086,7 @@ function MOHO.ScriptInterface:ChannelAsAnimVec3(anim_channel) end
 ---@return boolean check_if_locked
 function MOHO.ScriptInterface:CheckIfLocked(moho_layer,showAlert) end
 
----Play a little clicking sound
+---Play a little clicking sound (click.wav)
 ---[Docs](https://mohoscripting.com/methods/46)
 ---FEATURED SCRIPTS: 
 ---[SS - Multi Layer Transform Points](http://mohoscripts.com/script/ss_multi_layer_transform_points)
@@ -7496,12 +7496,12 @@ function MOHO.ScriptInterface:IsPro() end
 ---Converts a generic layer object into a 3D layer
 ---[Docs](https://mohoscripting.com/methods/74)
 ---@param moho_layer MOHO.MohoLayer # The layer to cast
----@return MOHO.Mesh3DLayer layer_as3_d
+---@return MOHO.Mesh3DLayer? layer_as_3D
 function MOHO.ScriptInterface:LayerAs3D(moho_layer) end
 
 ---[Docs](https://mohoscripting.com/methods/75)
 ---@param moho_layer MOHO.MohoLayer 
----@return MOHO.AudioLayer layer_as_audio
+---@return MOHO.AudioLayer? layer_as_audio
 function MOHO.ScriptInterface:LayerAsAudio(moho_layer) end
 
 ---[Docs](https://mohoscripting.com/methods/71)
@@ -7512,7 +7512,7 @@ function MOHO.ScriptInterface:LayerAsAudio(moho_layer) end
 ---[MR Tween Machine](http://mohoscripts.com/script/mr_tween_machine)
 ---[Create Limb 2](http://mohoscripts.com/script/am_create_limb_2)
 ---@param moho_layer MOHO.MohoLayer 
----@return MOHO.BoneLayer layer_as_bone
+---@return MOHO.BoneLayer? layer_as_bone
 function MOHO.ScriptInterface:LayerAsBone(moho_layer) end
 
 ---Converts a generic layer object into a group layer
@@ -7524,7 +7524,7 @@ function MOHO.ScriptInterface:LayerAsBone(moho_layer) end
 ---[Delete 'OFF' Layers](http://mohoscripts.com/script/LK_DeleteOffLayers)
 ---[SS - SVG Import](http://mohoscripts.com/script/ss_svg_import)
 ---@param moho_layer MOHO.MohoLayer # The layer to cast
----@return MOHO.GroupLayer layer_as_group
+---@return MOHO.GroupLayer? layer_as_group
 function MOHO.ScriptInterface:LayerAsGroup(moho_layer) end
 
 ---Converts a generic layer object into an image layer
@@ -7536,12 +7536,12 @@ function MOHO.ScriptInterface:LayerAsGroup(moho_layer) end
 ---[Images Render Quality](http://mohoscripts.com/script/sz_images_render_quality)
 ---[Replace PSD](http://mohoscripts.com/script/ae_replace_psd)
 ---@param moho_layer MOHO.MohoLayer # The layer to cast
----@return MOHO.ImageLayer layer_as_image
+---@return MOHO.ImageLayer? layer_as_image
 function MOHO.ScriptInterface:LayerAsImage(moho_layer) end
 
 ---[Docs](https://mohoscripting.com/methods/76)
 ---@param moho_layer MOHO.MohoLayer 
----@return MOHO.NoteLayer layer_as_note
+---@return MOHO.NoteLayer? layer_as_note
 function MOHO.ScriptInterface:LayerAsNote(moho_layer) end
 
 ---Converts a generic layer object into a particle layer
@@ -7549,7 +7549,7 @@ function MOHO.ScriptInterface:LayerAsNote(moho_layer) end
 ---FEATURED SCRIPTS: 
 ---[FO_Utilities](http://mohoscripts.com/script/FO_Utilities)
 ---@param moho_layer MOHO.MohoLayer # The layer to cast
----@return MOHO.ParticleLayer layer_as_particle
+---@return MOHO.ParticleLayer? layer_as_particle
 function MOHO.ScriptInterface:LayerAsParticle(moho_layer) end
 
 ---Converts a generic layer object into a switch layer
@@ -7561,7 +7561,7 @@ function MOHO.ScriptInterface:LayerAsParticle(moho_layer) end
 ---[MR Curve Tool](http://mohoscripts.com/script/mr_curve_tool)
 ---[Switch hands organizer](http://mohoscripts.com/script/ae_hands_table)
 ---@param moho_layer MOHO.MohoLayer # The layer to cast
----@return MOHO.SwitchLayer layer_as_switch
+---@return MOHO.SwitchLayer? layer_as_switch
 function MOHO.ScriptInterface:LayerAsSwitch(moho_layer) end
 
 ---[Docs](https://mohoscripting.com/methods/68)
