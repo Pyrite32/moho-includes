@@ -31,8 +31,9 @@ end
 6. Learn how to use [LuaLS Annotations](https://luals.github.io/wiki/annotations/) on functions and classes you write, so that LuaLS will properly diagnose your code.
 
 ## For VS Code
-1. With VS Code open, type Ctrl+Shift+P to open the command palette, then type '> Preferences: Open User Settings (JSON)'
-2. Create or edit the entry `"Lua.workspace.library"` like below:
+1. Follow Installation steps 1-3.
+2. With VS Code open, type Ctrl+Shift+P to open the command palette, then type '> Preferences: Open User Settings (JSON)'.
+3. Create or edit the entry `"Lua.workspace.library"` like below:
 
 ```json
 "Lua.workspace.library": [
@@ -40,3 +41,4 @@ end
   "C:\\Path\\to\\moho-includes" 
 ],
 ```
+4. Ensure LuaLS is enabled and running. (LuaLS will show a custom status '😺Lua' at the right of VS Code's status bar).
