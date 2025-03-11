@@ -7572,7 +7572,7 @@ function MOHO.ScriptInterface:LayerAsSwitch(moho_layer) end
 ---[MR Path](http://mohoscripts.com/script/mr_path)
 ---[SS - Multi Layer Transform Points](http://mohoscripts.com/script/ss_multi_layer_transform_points)
 ---@param moho_layer MOHO.MohoLayer 
----@return MOHO.MeshLayer layer_as_vector
+---@return MOHO.MeshLayer? layer_as_vector
 function MOHO.ScriptInterface:LayerAsVector(moho_layer) end
 
 ---Added in version 12.2
