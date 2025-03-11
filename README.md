@@ -41,4 +41,4 @@ end
   "C:\\Path\\to\\moho-includes" 
 ],
 ```
-4. Ensure LuaLS is enabled and running. (LuaLS will show a custom status '😺Lua' at the right of VS Code's status bar).
+4. Ensure LuaLS is enabled and running (LuaLS will show a custom status '😺Lua' at the right of VS Code's status bar).
