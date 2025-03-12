@@ -2,7 +2,7 @@
 ![Demo GIF](/docs/demo.gif)
 
 # moho-includes
-Improve your Moho script development experience with type annotations for Moho's scripting API.
+Bring your Moho script development experience to the next level with autocomplete and type annotations.
 > Note: Notepad and Notepad++ are not supported. Install a supported code editor to make use of `moho-includes`. 
 
 
