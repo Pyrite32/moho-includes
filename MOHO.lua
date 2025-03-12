@@ -3318,6 +3318,10 @@ function MOHO.M_Mesh3D:TexturePoint(id) end
 ---@field fTempPos LM.Vector2 # a temporary variable for storing position, useful when transforming points | Version: < 9.5
 ---@field fTempWidth real # a temporary variable to store line width | Version: < 9.5
 ---@field fWidth MOHO.AnimVal # the width of curves that pass through this point (-1 means that curves aren't affected by variable width) | Version: < 9.5
+---@field fOpacity MOHO.AnimVal # Opacity of the point, ranges from 0 to 1. NOTE: This only works if the stroke uses a bitmap brush. | Version: 14.3
+---@field fTempOpacity number # Temporary opacity of the point, ranges from 0 to 1, useful when transforming points. NOTE: Relevant only if the stroke uses a bitmap brush. | Version: 14.3
+---@field fColorDrift MOHO.AnimVal # Color drift of the point, ranges from 0 (for original color) to 1 (target color). NOTE: Relevant only if the stroke uses a bitmap brush. | Version: 14.3
+---@field fTempColorDrift number # Temporary Color drift of the point, ranges from 0 (for original color) to 1 (target color), useful when transforming points. NOTE: Relevant only if the stroke uses a bitmap brush. | Version: 14.3
 MOHO.M_Point = {}
 
 ---@return MOHO.M_Point new_val
@@ -3636,6 +3640,7 @@ function MOHO.M_Shape:EffectHandle2() end
 ---@return segID _edge
 function MOHO.M_Shape:GetEdge(edgeID,curveID,segID) end
 
+--- This will throw error "M_Shape:GetPoint - out of range" and return -1 unless you first call: M_Shape:CountPoints()
 ---Added in version 11
 ---[Docs](https://mohoscripting.com/methods/1131)
 ---FEATURED SCRIPTS: 
