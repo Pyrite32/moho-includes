@@ -882,8 +882,8 @@ function MOHO.AudioLayer:SpatialPositioning() end
 ---
 ---[Open in Browser](https://mohoscripting.com/classes/BoneLayer)
 ---@class MOHO.BoneLayer : MOHO.GroupLayer
----@field fGravityDirection MOHO.AnimVal # Added in version 14.0 | Version: 14.0
----@field fGravityStrength MOHO.AnimVal # Added in version 14.0 | Version: 14.0
+---@field fGravityDirection MOHO.AnimVal # No documentation has been provided | Version: 14.0
+---@field fGravityStrength MOHO.AnimVal # No documentation has been provided | Version: 14.0
 ---@field fWindDirection MOHO.AnimVal #  | Version: 13.5.2
 ---@field fWindStrength MOHO.AnimVal #  | Version: 13.5.2
 ---@field fWindTurbulentAmplitude MOHO.AnimVal #  | Version: 13.5.2
@@ -1757,11 +1757,11 @@ function MOHO.LM_SecureAccess:RemoveUser() end
 ---[Open in Browser](https://mohoscripting.com/classes/M_Bone)
 ---@class MOHO.M_Bone
 ---@field fAngle real # the bone's current angle | Version: < 9.5
----@field fAngleControlDelay int32 # Added in version 14.0 | Version: 14.0
+---@field fAngleControlDelay int32 # No documentation has been provided | Version: 14.0
 ---@field fAngleControlParent int32 # an id number to the bone's angle control bone (-1 if the bone has no angle control) | Version: < 9.5
 ---@field fAngleControlScale real # the scale value for the bone's angle control | Version: < 9.5
 ---@field fAngleDampingForce real # Added in version 14.0 to replace fDampingForce | Version: 14.0
----@field fAngleDynamics boolean # Added in version 14.0 | Version: 14.0
+---@field fAngleDynamics boolean # No documentation has been provided | Version: 14.0
 ---@field fAngleSpringForce real # Added in version 14.0 to replace fSpringForce | Version: 14.0
 ---@field fAngleTorqueForce real # Added in version 14.0 to replace fTorqueForce | Version: 14.0
 ---@field fAnimAngle MOHO.AnimVal # the bon'e animated angle | Version: < 9.5
@@ -1793,36 +1793,36 @@ function MOHO.LM_SecureAccess:RemoveUser() end
 ---@field fPhysicsReturnToZero boolean #  | Version: < 9.5
 ---@field fPhysicsTorque real #  | Version: < 9.5
 ---@field fPos LM.Vector2 # the bone's current position | Version: < 9.5
----@field fPosControlDelay int32 # Added in version 14.0 | Version: 14.0
+---@field fPosControlDelay int32 # No documentation has been provided | Version: 14.0
 ---@field fPosControlParent int32 # an id number to the bone's position control bone (-1 if the bone has no position control) | Version: < 9.5
 ---@field fPosControlScale LM.Vector2 # the scale value for the bone's position control | Version: < 9.5
----@field fPosDampingForce real # Added in version 14.0 | Version: 14.0
----@field fPosDynamics boolean # Added in version 14.0 | Version: 14.0
----@field fPosSpringForce real # Added in version 14.0 | Version: 14.0
----@field fPosTorqueForce real # Added in version 14.0 | Version: 14.0
+---@field fPosDampingForce real # No documentation has been provided | Version: 14.0
+---@field fPosDynamics boolean # No documentation has been provided | Version: 14.0
+---@field fPosSpringForce real # No documentation has been provided | Version: 14.0
+---@field fPosTorqueForce real # No documentation has been provided | Version: 14.0
 ---@field fPtMatrix LM.Matrix # the transformation matrix for the influence the bone has over vector points | Version: < 9.5
 ---@field fRestMatrix LM.Matrix # the transformation matrix for the bone at rest | Version: < 9.5
 ---@field fScale real # the bone's current scale | Version: < 9.5
----@field fScaleControlDelay int32 # Added in version 14.0 | Version: 14.0
+---@field fScaleControlDelay int32 # No documentation has been provided | Version: 14.0
 ---@field fScaleControlParent int32 # an id number to the bone's scale control bone (-1 if the bone has no scale control) | Version: < 9.5
 ---@field fScaleControlScale real # the scale value for the bone's scale control | Version: < 9.5
----@field fScaleDampingForce real # Added in version 14.0 | Version: 14.0
----@field fScaleDynamics boolean # Added in version 14.0 | Version: 14.0
----@field fScaleSpringForce real # Added in version 14.0 | Version: 14.0
----@field fScaleTorqueForce real # Added in version 14.0 | Version: 14.0
----@field fScalingMode int32 # Added in version 10. Values: 0 - manual, 1 - two-dimensional, 2 - squash/stretch | Version: 10
+---@field fScaleDampingForce real # No documentation has been provided | Version: 14.0
+---@field fScaleDynamics boolean # No documentation has been provided | Version: 14.0
+---@field fScaleSpringForce real # No documentation has been provided | Version: 14.0
+---@field fScaleTorqueForce real # No documentation has been provided | Version: 14.0
+---@field fScalingMode int32 # Values: 0 - manual, 1 - two-dimensional, 2 - squash/stretch | Version: 10
 ---@field fSelected boolean # true if the bone is selected, otherwise false | Version: < 9.5
 ---@field fShy boolean # true if the bone is a shy bone | Version: 10
 ---@field fSpringForce real # the influence of springiness on bone dynamics | Version: < 9.5
 ---@field fSquashStretchScaling real # the bone's Squash-Stretch Scaling factor | Version: 10
 ---@field fStrength real # the bone's strength | Version: < 9.5
----@field fTargetBone MOHO.AnimVal # ID of the current target bone. Added in version 10 | Version: 10
+---@field fTargetBone MOHO.AnimVal # ID of the current target bone | Version: 10
 ---@field fTempAngle real # a temporary variable to store the angle | Version: < 9.5
 ---@field fTempLength real # a temporary variable to store the length | Version: < 9.5
 ---@field fTempPos LM.Vector2 # a temporary variable to store the position | Version: < 9.5
 ---@field fTempScale real # a temporary variable to store the scale | Version: < 9.5
 ---@field fTorqueForce real # the influence of torque on bone dynamics | Version: < 9.5
----@field fWindDynamics boolean #  | Version: 13.5.2
+---@field fWindDynamics boolean # No documentation has been provided | Version: 13.5.2
 MOHO.M_Bone = {}
 
 ---@return MOHO.M_Bone new_val
@@ -3307,10 +3307,10 @@ function MOHO.M_Mesh3D:TexturePoint(id) end
 ---[Open in Browser](https://mohoscripting.com/classes/M_Point)
 ---@class MOHO.M_Point
 ---@field fAnimPos MOHO.AnimVec2 # the point's position animation channel | Version: < 9.5
----@field fColor MOHO.AnimColor # Added in version 11 | Version: 11
----@field fColored boolean # Added in version 11 | Version: 11
----@field fColorStrength MOHO.AnimVal # Added in version 11 | Version: 11
----@field fHidden boolean # Added in version 10 | Version: 10
+---@field fColor MOHO.AnimColor # override color for this point. Affects stroke and fill. | Version: 11
+---@field fColored boolean # true if the point has a color override. | Version: 11
+---@field fColorStrength MOHO.AnimVal # influence of the point's color override. Values beyond 1 have no additional effects. | Version: 11
+---@field fHidden boolean # true if the point has been hidden temporarily. Has no effect on rendering. | Version: 10
 ---@field fParent int32 # id number of the parent bone this point is bound to. A value of -1 means the point is not bound to any bone. A value of -2 means the point is flexi-bound to all bones in the parent layer. | Version: < 9.5
 ---@field fPos LM.Vector2 # the point's current position | Version: < 9.5
 ---@field fPrevSelected boolean # true if the point was previously selected, otherwise false | Version: < 9.5
@@ -3484,23 +3484,23 @@ function MOHO.M_PointGroup:Point(id) end
 ---The M_Shape class represents a visible shape in Moho. A shape can either be a fill, an outline, or both.
 ---[Open in Browser](https://mohoscripting.com/classes/M_Shape)
 ---@class MOHO.M_Shape
----@field f3DThickness MOHO.AnimVal #  | Version: < 9.5
----@field fComboBlend MOHO.AnimVal # Added in version 14.0 | Version: 14.0
----@field fComboMode int32 # Added in version 14.0. See MOHO combo constants. | Version: 14.0
----@field fEffectOffset MOHO.AnimVec2 #  | Version: < 9.5
----@field fEffectRotation MOHO.AnimVal #  | Version: < 9.5
----@field fEffectScale MOHO.AnimVal #  | Version: < 9.5
+---@field f3DThickness MOHO.AnimVal # Basically the same as '3D Depth' | Version: < 9.5
+---@field fComboBlend MOHO.AnimVal # Ordered position within a liquid shape | Version: 14.0
+---@field fComboMode int32 # Possible values: MOHO.COMBO_ADD, MOHO.COMBO_INTERSECT, MOHO.COMBO_NORMAL, MOHO.COMBO_SUBTRACT | Version: 14.0
+---@field fEffectOffset MOHO.AnimVec2 # Animated position for a style effect (like Gradient)  | Version: < 9.5
+---@field fEffectRotation MOHO.AnimVal # Animated rotation for a style effect (like Gradient)  | Version: < 9.5
+---@field fEffectScale MOHO.AnimVal # # Animated scale for a style effect (like Gradient) | Version: < 9.5
 ---@field fFillAllowed boolean # True if a fill is allowed, whether the shape actually has a fill or not. | Version: < 9.5
 ---@field fHasFill boolean # True if the shape is filled, otherwise false. | Version: < 9.5
 ---@field fHasOutline boolean # True if the shape has an outline, otherwise false. | Version: < 9.5
----@field fHidden boolean #  | Version: < 9.5
----@field fInheritedStyle MOHO.M_Style #  | Version: < 9.5
----@field fInheritedStyle2 MOHO.M_Style #  | Version: < 9.5
----@field fInheritedStyleName LM.String # Starting in AS11, these actually refer to style UUIDs, not names. The variable name here hasn't changed in order to not break the scripting interface. | Version: < 9.5
----@field fInheritedStyleName2 LM.String # Starting in AS11, these actually refer to style UUIDs, not names. The variable name here hasn't changed in order to not break the scripting interface. | Version: < 9.5
+---@field fHidden boolean # True if the shape is hidden. Points are still visible, and rendering is not affected.  | Version: < 9.5
+---@field fInheritedStyle MOHO.M_Style # Base Style 1 | Version: < 9.5
+---@field fInheritedStyle2 MOHO.M_Style # Base Style 2 | Version: < 9.5
+---@field fInheritedStyleName LM.String # Starting in Version 11.0, these actually refer to style UUIDs, not names. The variable name here hasn't changed in order to not break the scripting interface. | Version: < 9.5
+---@field fInheritedStyleName2 LM.String # Starting in Version 11.0, these actually refer to style UUIDs, not names. The variable name here hasn't changed in order to not break the scripting interface. | Version: < 9.5
 ---@field fMyStyle MOHO.M_Style # The shape's style properties. The style defines a shape's fill color, line width, etc. | Version: < 9.5
----@field fName LM.String # Name of the shape. | Version: < 9.5
----@field fSelected boolean # True if the shape is selected, otherwise false. | Version: < 9.5
+---@field fName LM.String # Name of the shape. By default, empty. | Version: < 9.5
+---@field fSelected boolean # True if the shape is selected (checkered selection), otherwise false. | Version: < 9.5
 MOHO.M_Shape = {}
 
 ---@return MOHO.M_Shape new_val
@@ -4092,17 +4092,17 @@ function MOHO.M_Skeleton:UpdateBoneMatrix(id) end
 ---The <b>M_Style</b> class represents the visual style of a shape, either the shape's own style or an inherited style
 ---[Open in Browser](https://mohoscripting.com/classes/M_Style)
 ---@class MOHO.M_Style
----@field fBrushAlign boolean #  | Version: < 9.5
----@field fBrushAngleDrift real # Added in version 11 | Version: 11
----@field fBrushIsColor boolean #  | Version: < 9.5
+---@field fBrushAlign boolean # Basically the same as 'Align brush with curve' | Version: < 9.5
+---@field fBrushAngleDrift real # No documentation has been provided | Version: 11
+---@field fBrushIsColor boolean # Basically the same as 'Tint brush using stroke color'  | Version: < 9.5
 ---@field fBrushJitter real #  | Version: < 9.5
----@field fBrushMergedAlpha boolean # Added in version 11 | Version: 11
+---@field fBrushMergedAlpha boolean # No documentation has been provided | Version: 11
 ---@field fBrushName LM.String #  | Version: < 9.5
----@field fBrushRandomInterval int32 # Added in version 14.0 | Version: 14.0
+---@field fBrushRandomInterval int32 # No documentation has been provided | Version: 14.0
 ---@field fBrushRandomize boolean #  | Version: < 9.5
----@field fBrushRandomOrder boolean # Added in version 11 | Version: 11
----@field fBrushSizeVariationAmp real # Added in version 14.0 | Version: 14.0
----@field fBrushSizeVariationScale real # Added in version 14.0 | Version: 14.0
+---@field fBrushRandomOrder boolean # Basically the same as Random Stamp Order | Version: 11
+---@field fBrushSizeVariationAmp real # No documentation has been provided | Version: 14.0
+---@field fBrushSizeVariationScale real # No documentation has been provided | Version: 14.0
 ---@field fBrushSpacing real #  | Version: < 9.5
 ---@field fBrushTint boolean #  | Version: < 9.5
 ---@field fDefineFillCol boolean # True if this style defines a fill color, otherwise false | Version: < 9.5
@@ -4113,7 +4113,10 @@ function MOHO.M_Skeleton:UpdateBoneMatrix(id) end
 ---@field fLineCol MOHO.AnimColor # The style's line color | Version: < 9.5
 ---@field fLineWidth real # The style's line width | Version: < 9.5
 ---@field fName LM.String # The name of the style. | Version: < 9.5
----@field fUUID LM.String # Added in version 11 | Version: 11
+---@field fUUID LM.String # No documentation has been provided | Version: 11
+---@field fBrushHueDrift real # Difference in hue (0 to 1) between this stroke's color and the color associated with a maximum color drift value. | Version 14.3
+---@field fBrushSatDrift real # Difference in saturation (0 to 1) between this stroke's color and the color associated with a maximum color drift value. | Version 14.3
+---@field fBrushValDrift real # Difference in value (0 to 1) between this stroke's color and the color associated with a maximum color drift value. | Version 14.3
 MOHO.M_Style = {}
 
 ---@return MOHO.M_Style new_val
@@ -4285,7 +4288,7 @@ function MOHO.Mesh3DOptions:new_local() end
 ---@field fNoiseScale real # This gives the spacing for noise. A low number means very jaggy; a high number smooths the jaggies out. The UI uses pixels; internally it is stored as relative to the document height (see also fNoiseAmp) | Version: < 9.5
 ---@field fNoisyLines boolean #  | Version: < 9.5
 ---@field fNoisyShapes boolean #  | Version: < 9.5
----@field fSquashableCurveDeformer boolean # Added in version 14.0 | Version: 14.0
+---@field fSquashableCurveDeformer boolean # No documentation has been provided | Version: 14.0
 MOHO.MeshLayer = {}
 
 ---@return MOHO.MeshLayer new_val
@@ -6594,8 +6597,8 @@ function MOHO.MohoView:ZoomUp(where) end
 ---@field altKey boolean # True if the alt key is down, otherwise false. | Version: < 9.5
 ---@field ctrlKey boolean # True if the ctrl key is down, otherwise false. | Version: < 9.5
 ---@field doubleClick boolean #  | Version: < 9.5
----@field drawingStartVec LM.Vector2 # Added in version 11 | Version: 11
----@field drawingVec LM.Vector2 # Added in version 11 | Version: 11
+---@field drawingStartVec LM.Vector2 # No documentation has been provided | Version: 11
+---@field drawingVec LM.Vector2 # No documentation has been provided | Version: 11
 ---@field eraser boolean # Added in version 10 | Version: 10
 ---@field penPressure real # The current pen pressure (if a drawing tablet is being used). Pen pressure can vary from 0.0 to 1.0. If the user is working with a mouse, and not a drawing tablet, the pen pressure will always be 0.0. | Version: < 9.5
 ---@field pt LM.Point # The pixel location of the current mouse event. | Version: < 9.5
@@ -6944,9 +6947,9 @@ function MOHO.PoserActorGroup:PrimaryParameterID() end
 ---[Open in Browser](https://mohoscripting.com/classes/ScriptInterface)
 ---@class MOHO.ScriptInterface
 ---@field document MOHO.MohoDoc # The current document object open in Moho | Version: < 9.5
----@field drawingFrame int32 # Added in version 11 | Version: 11
+---@field drawingFrame int32 # No documentation has been provided | Version: 11
 ---@field drawingLayer MOHO.MohoLayer # Added in version 11. This is the vector layer where drawn paths / shapes will be placed and, especially when using frame-by-frame, is not necessarily the layer that is shown as active in the Layers window | Version: 11
----@field drawingLayerFrame int32 # Added in version 11 | Version: 11
+---@field drawingLayerFrame int32 # No documentation has been provided | Version: 11
 ---@field frame int32 # The current frame in the timeline | Version: < 9.5
 ---@field gridOn boolean # True if the grid is turned on in the editing view, otherwise false | Version: < 9.5
 ---@field gridSize real # The size of one grid unit | Version: < 9.5
@@ -8037,64 +8040,6 @@ function MOHO.ScriptPrefs:SetString(key,value) end
 ---
 ---[Open in Browser](https://mohoscripting.com/classes/SwitchLayer)
 ---@class MOHO.SwitchLayer : MOHO.GroupLayer
----@field  CameraBoundsCol LM.rgb_color # Added in version 9.5 | Version: 9.5
----@field  CameraShadeCol LM.rgb_color # Added in version 9.5 | Version: 9.5
----@field  CameraTargetCol LM.rgb_color # Added in version 9.5 | Version: 9.5
----@field  GuideCol LM.rgb_color # Added in version 9.5 | Version: 9.5
----@field fAlpha MOHO.AnimVal # the layer's alpha animation channel | Version: < 9.5
----@field fAmbientOcclusionRadius MOHO.AnimVal # Added in version 12 | Version: 12
----@field fBlur MOHO.AnimVal # the layer's blur animation channel | Version: < 9.5
----@field fFlipH MOHO.AnimBool # the layer's horizontal flip animation channel | Version: < 9.5
----@field fFlipV MOHO.AnimBool # the layer's vertical flip animation channel | Version: < 9.5
----@field fFollowing MOHO.AnimVal #  | Version: < 9.5
----@field fLayerColor MOHO.AnimColor # Added in version 10 | Version: 10
----@field fLayerColorOn MOHO.AnimBool # Added in version 10 | Version: 10
----@field fLayerOutline MOHO.AnimBool #  | Version: < 9.5
----@field fLayerShading MOHO.AnimBool # the layer's shading on/off animation channel | Version: < 9.5
----@field fLayerShadow MOHO.AnimBool # the layer's shadow on/off animation channel | Version: < 9.5
----@field fMotionBlur MOHO.AnimBool # the layer's motion blur on/off animation channel | Version: < 9.5
----@field fMotionBlurAlphaEnd MOHO.AnimVal #  | Version: < 9.5
----@field fMotionBlurAlphaStart MOHO.AnimVal #  | Version: < 9.5
----@field fMotionBlurExtendedFrames MOHO.AnimVal # Added in version 12 | Version: 12
----@field fMotionBlurFramePercentage MOHO.AnimVal # Added in version 12 | Version: 12
----@field fMotionBlurFrames MOHO.AnimVal #  | Version: < 9.5
----@field fMotionBlurRadius MOHO.AnimVal #  | Version: < 9.5
----@field fMotionBlurSkip MOHO.AnimVal #  | Version: < 9.5
----@field fMotionBlurSubframes MOHO.AnimBool # Added in version 12 | Version: 12
----@field fNoise MOHO.AnimVal # Added in version 12 | Version: 12
----@field fOutlineColor MOHO.AnimColor #  | Version: < 9.5
----@field fOutlineWidth MOHO.AnimVal #  | Version: < 9.5
----@field fPerspectiveBlur MOHO.AnimVal #  | Version: < 9.5
----@field fPerspectiveColor MOHO.AnimColor #  | Version: < 9.5
----@field fPerspectiveScale MOHO.AnimVal #  | Version: < 9.5
----@field fPerspectiveShadow MOHO.AnimBool #  | Version: < 9.5
----@field fPerspectiveShear MOHO.AnimVal #  | Version: < 9.5
----@field fPhysicsNudge MOHO.AnimVec2 #  | Version: < 9.5
----@field fPixelation MOHO.AnimVal # Added in version 12 | Version: 12
----@field fRotationX MOHO.AnimVal # the layer's X rotation animation channel | Version: < 9.5
----@field fRotationY MOHO.AnimVal # the layer's Y rotation animation channel | Version: < 9.5
----@field fRotationZ MOHO.AnimVal # the layer's Z rotation animation channel | Version: < 9.5
----@field fScale MOHO.AnimVec3 # the layer's scale animation channel | Version: < 9.5
----@field fShadingAngle MOHO.AnimVal #  | Version: < 9.5
----@field fShadingBlur MOHO.AnimVal #  | Version: < 9.5
----@field fShadingColor MOHO.AnimColor #  | Version: < 9.5
----@field fShadingContraction MOHO.AnimVal #  | Version: < 9.5
----@field fShadingNoiseAmp MOHO.AnimVal #  | Version: < 9.5
----@field fShadingNoiseScale MOHO.AnimVal #  | Version: < 9.5
----@field fShadingOffset MOHO.AnimVal #  | Version: < 9.5
----@field fShadowAngle MOHO.AnimVal #  | Version: < 9.5
----@field fShadowBlur MOHO.AnimVal #  | Version: < 9.5
----@field fShadowColor MOHO.AnimColor #  | Version: < 9.5
----@field fShadowExpansion MOHO.AnimVal #  | Version: < 9.5
----@field fShadowNoiseAmp MOHO.AnimVal #  | Version: < 9.5
----@field fShadowNoiseScale MOHO.AnimVal #  | Version: < 9.5
----@field fShadowOffset MOHO.AnimVal #  | Version: < 9.5
----@field fShear MOHO.AnimVec3 # the layer's shear animation channel | Version: < 9.5
----@field fThreshold MOHO.AnimVal # Added in version 12 | Version: 12
----@field fTimelineMarkers MOHO.AnimString # Added in version 10 | Version: 10
----@field fTranslation MOHO.AnimVec3 # the layer's translation animation channel | Version: < 9.5
----@field fVisibility MOHO.AnimBool # the layer's visibility animation channel | Version: < 9.5
----@field GridCol LM.rgb_color # Added in version 9.5 | Version: 9.5
 MOHO.SwitchLayer = {}
 
 ---@return MOHO.SwitchLayer new_val
@@ -8126,7 +8071,7 @@ function MOHO.SwitchLayer:GetValue(frame) end
 ---@return boolean interp_mode
 function MOHO.SwitchLayer:InterpMode() end
 
----Added in version 12
+---true if the layer is treated as a frame-by-frame layer | Added in version 12
 ---[Docs](https://mohoscripting.com/methods/1195)
 ---FEATURED SCRIPTS: 
 ---[MR Curve Tool](http://mohoscripts.com/script/mr_curve_tool)
@@ -8143,7 +8088,7 @@ function MOHO.SwitchLayer:PhonemeToViseme(phoneme) end
 ---@return int32 rank_viseme
 function MOHO.SwitchLayer:RankViseme(viseme) end
 
----Added in version 12
+---Treat this layer as a frame-by-frame layer | Added in version 12
 ---[Docs](https://mohoscripting.com/methods/1196)
 ---@param boolean boolean 
 function MOHO.SwitchLayer:SetFBFLayer(boolean) end
